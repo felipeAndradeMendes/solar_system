@@ -7,7 +7,7 @@ import '../App.css';
 class SolarSystem extends React.Component {
   render() {
     return (
-      <div data-testid="solar-system" className='SolarSystem'>
+      <div data-testid="solar-system" className="SolarSystem">
         <Title headline="Planetas" />
         {Planets.map(({ name, image }) => (
           <PlanetCard
