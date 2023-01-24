@@ -1,3 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
+  background-image: url(./images/background.png);
+}
+
+.Header {
+  color: rgba(255, 255, 255, 1);
+}
+
+.SolarSystem {
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-flow: row; */
+  width:fit-content;
+}
+
+.PlanetCard {
+  display: flex;
+  flex-direction: column;
+}
+
+.planet-name {
+  color: white;
 }
