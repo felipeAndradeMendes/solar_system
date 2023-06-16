@@ -7,7 +7,7 @@ class PlanetCard extends React.Component {
     const { planetName, planetImage } = this.props;
     return (
       <div data-testid="planet-card" className="PlanetCard">
-        <img src={ planetImage } alt={ `Planeta ${planetName}` } className="planet-img" />
+        <img src={ planetImage } alt={ `Planeta ${planetName}` } className={ `planet-${planetName}` } />
         <p data-testid="planet-name" className="planet-name">
           { planetName }
         </p>

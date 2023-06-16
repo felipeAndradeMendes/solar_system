@@ -13,17 +13,95 @@
   color: white;
 }
 
+.Title {
+  color: white;
+}
+
 .SolarSystem {
   display: flex;
-  flex-wrap: wrap;
-  width: fit-content;
-}
+  width: 100%; 
+  border: 1px green solid;
+} 
 
 .PlanetCard {
   display: flex;
   flex-direction: column;
+  border: 1px red solid;
 }
 
 .planet-name {
   color: white;
+}
+
+/* MISSÕES */
+
+.Missions {
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 90%;
+}
+
+.missions-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 496px;
+  grid-auto-rows: 192px;
+  row-gap: 30px;
+}
+
+.MissionCard {
+  color: white;
+  border: 1px white solid;
+  width: 496px;
+  height: 192px;
+  /* padding: 20px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: rgba(24, 26, 37, 0.5);
+  border-radius: 20px;
+}
+
+.mission-name {
+  font-size: 1.5rem;
+  align-self: flex-start;
+  text-transform: uppercase;
+  padding-left: 20px;
+}
+
+.mission-lower-infos-container {
+  display: flex;
+  justify-content:space-evenly;
+  align-items: flex-start;
+}
+
+/* PLANETAS INDIVIDUAIS */
+.planet-Mercúrio {
+  width: 41px;
+}
+
+.planet-Vênus {
+  width: 102px;
+}
+
+.planet-Terra {
+  width: 106px;
+}
+
+.planet-Marte {
+  width: 66px;
+}
+
+.planet-Júptier {
+  width: 272px;
+}
+
+.planet-Saturno {
+  width: 582px;
+}
+.planet-Urano {
+  width: 144px;
+}
+
+.planet-Netuno {
+  width: 144px;
 }
